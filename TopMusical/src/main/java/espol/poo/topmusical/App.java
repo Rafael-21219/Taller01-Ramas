@@ -19,6 +19,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 680);
         stage.setScene(scene);
+        stage.setTitle("Ranking de las 10 canciones más populares");
         stage.show();
     }
 
